@@ -1,0 +1,11 @@
+# Vite files
+
+dist
+
+# Jest files
+
+coverage
+
+# Dependency directories
+
+node_modules
