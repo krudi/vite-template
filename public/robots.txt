@@ -1,5 +1,4 @@
 User-agent: *
-Allow:
-Disallow:
+Allow: /
 Host: https://web-site.com
 Sitemap: https://web-site.com/sitemap.xml
