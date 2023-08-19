@@ -92,7 +92,7 @@
     "postcss-import": "^15.1.0",
     "postcss-load-config": "^4.0.1",
     "postcss-nested": "^6.0.1",
-    "postcss-scss": "^4.0.6",
+    "postcss-scss": "^4.0.7",
     "prettier": "^2.8.7",
     "sass": "^1.62.0",
     "start-server-and-test": "^2.0.0",
