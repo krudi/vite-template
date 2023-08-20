@@ -1,6 +1,6 @@
 {
   "include": ["tests/**/*.test.ts", "utils/**/*.ts", "**/*.d.ts"],
-  "exclude": ["node_modules", "cypress/**/*.ts", "dist"],
+  "exclude": ["node_modules", "dist"],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

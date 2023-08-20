@@ -46,15 +46,6 @@ Navigate into your project directory and start your preview mode up
 - `npm run lint:full` - to run all lints commands above
 - `npm run lint:full:fix` - to run all lints all commands above and fix those automatically
 
-## Testing with [Cypress](https://cypress.io)
-
-[Cypress](https://cypress.io) is a front end testing tool for web applications. To use it, please follow the steps below.
-
-- `npm run cy:open`: to open [Cypress](https://cypress.io) UI
-- `npm run cy:run`: to run the [Cypress](https://cypress.io) server
-- `npm run cy:e2e`: to run UI tests
-- `npm run cy:e2e:headless`: to run UI tests, using [start-server-and-test](https://github.com/bahmutov/start-server-and-test)
-
 ## Testing with [Jest](https://jestjs.io)
 
 [Jest](https://jestjs.io) is a testing framework that provides an easy-to-use and comprehensive testing solution for [JavaScript](https://www.javascript.com) codebases.
