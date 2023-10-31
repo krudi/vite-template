@@ -5,7 +5,7 @@ A frontend build to optimize CSS3 and JavaScript files.
 ## Quick start
 
 > **Note**
-> You need [Node.js](https://github.com/nodejs) on your computer before running
+> You need [Node.js](https://github.com/nodejs) on your computer before running.
 
 1. First clone this repository and navigate into your project directory
 2. Install the dependencies: `npm run install`
@@ -13,7 +13,7 @@ A frontend build to optimize CSS3 and JavaScript files.
 
 ## Starting development mode
 
-To launch the project in development mode with hot module replacement
+To launch the project in development mode with hot module replacement.
 
 - `npm run dev`: to compile application and serve it to the browser
 
@@ -21,19 +21,19 @@ _You can view the development server at <http://localhost:5173>_
 
 ## Starting production mode
 
-Build and optimize your application with [Vite](https://github.com/vitejs/vite) for production
+Build and optimize your application with [Vite](https://github.com/vitejs/vite) for production.
 
 - `npm run build`: build for production with minification
 
 ## Starting preview mode
 
-The option shows the current changes, that are made in development mode to check that everything works before deploying the condo to production
+The option shows the current changes, that are made in development mode to check that everything works before deploying the condo to production.
 
 - `npm run preview`: shows a live project preview
 
 ## Commands for linting/fixing files
 
-Navigate into your project directory and start your preview mode up
+Navigate into your project directory and start your preview mode up.
 
 - `npm run lint:js`: lints [JavaScript](https://www.javascript.com) files
   - `npm run lint:js:fix`: to eliminate all possible errors
