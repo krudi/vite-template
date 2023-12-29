@@ -47,6 +47,7 @@
     "dev": "vite",
     "dev:host": "npm run dev -- --host",
     "build": "vite build",
+    "watch": "vite build --watch",
     "preview": "vite preview",
     "lint:js": "eslint --ext .js,.ts .",
     "lint:js:fix": "eslint --fix --ext .js,.ts .",
