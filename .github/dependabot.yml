@@ -4,3 +4,31 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    reviewers:
+      - "krudi"
+    assignees:
+      - "krudi"
+    groups:
+      Vite:
+        patterns:
+          - vite
+          - start-server-and-test
+      TypeScript:
+        patterns:
+          - typescript
+          - ts-node
+          - "@types/*"
+      ESLint:
+        patterns:
+          - eslint
+          - "@typescript-eslint/*"
+      StyleSheet:
+        patterns:
+          - sass
+          - postcss
+          - cssnano
+          - autoprefixer
+      Lint:
+        patterns:
+          - stylelint
+          - prettier
