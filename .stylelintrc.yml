@@ -6,10 +6,6 @@ overrides:
       - "**/*.css"
     customSyntax: postcss
 
-  - files:
-      - "**/*.scss"
-    customSyntax: postcss-scss
-
 rules:
   no-duplicate-selectors: true
   color-hex-length: long
@@ -32,4 +28,12 @@ rules:
   selector-pseudo-element-colon-notation: double
   selector-no-vendor-prefix: true
   media-feature-name-no-vendor-prefix: true
-  scss/dollar-variable-empty-line-before: null
+  custom-property-empty-line-before:
+    - "always"
+    - except:
+        - "after-custom-property"
+        - "first-nested"
+        - "after-comment"
+      ignore:
+        - "after-comment"
+        - "inside-single-line-block"

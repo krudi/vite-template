@@ -24,9 +24,7 @@ updates:
           - "@typescript-eslint/*"
       StyleSheet:
         patterns:
-          - sass
           - postcss
-          - cssnano
           - autoprefixer
       Lint:
         patterns:
