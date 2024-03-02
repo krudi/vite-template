@@ -56,13 +56,9 @@
     "lint:files": "prettier --check \"**/*.{html,graphql,yml,yaml,vue}\"",
     "lint:files:fix": "prettier --write \"**/*.{html,graphql,yml,yaml,vue}\"",
     "lint:full": "npm run lint:js && npm run lint:css && npm run lint:files",
-    "lint:full:fix": "npm run lint:js:fix && npm run lint:css:fix && npm run lint:files:fix",
-    "deploy": "npm run build",
-    "prepare": "husky install"
+    "lint:full:fix": "npm run lint:js:fix && npm run lint:css:fix && npm run lint:files:fix"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
     "@types/node": "^20.10.3",
     "@typescript-eslint/eslint-plugin": "^6.18.0",
     "@typescript-eslint/parser": "^6.13.2",
@@ -71,9 +67,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.1.3",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.33",
     "postcss-import": "^15.1.0",
     "postcss-load-config": "^5.0.2",
     "postcss-nested": "^6.0.1",
