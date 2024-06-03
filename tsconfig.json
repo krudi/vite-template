@@ -16,7 +16,7 @@
     "resolveJsonModule": true,
     "paths": {
       "@/src/*": [
-        "./src/index.html*"
+        "./src/*"
       ],
       "~/src/*": [
         "./src/*"
