@@ -1,6 +1,7 @@
 # Vite files
 
 dist
+dev-dist
 
 # Environment variables
 
