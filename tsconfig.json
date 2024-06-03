@@ -1,26 +1,39 @@
 {
-  "include": ["**/*.ts", "**/*.tsx", "*.d.ts", ".*.ts"],
-  "exclude": ["node_modules", "dist"],
+  "include": [
+    "src"
+  ],
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"],
-      "~/*": ["./*"]
-    },
-    "types": ["node"],
-    "target": "ES5",
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
+    "target": "ES2020",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable",
+      "WebWorker"
+    ],
+    "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
+    "paths": {
+      "@/src/*": [
+        "./src/index.html*"
+      ],
+      "~/src/*": [
+        "./src/*"
+      ]
+    },
+    "types": [
+      "vite/client",
+      "vite-plugin-pwa/vanillajs",
+      "vite-plugin-pwa/info"
+    ],
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noEmit": true,
     "isolatedModules": true,
-    "incremental": true
-  }
+    "skipLibCheck": true
+  },
 }
