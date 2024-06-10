@@ -58,7 +58,7 @@
     "lint:full:fix": "npm run lint:js:fix && npm run lint:css:fix && npm run lint:files:fix"
   },
   "devDependencies": {
-    "@types/node": "20.12.13",
+    "@types/node": "20.14.2",
     "@typescript-eslint/eslint-plugin": "7.11.0",
     "@typescript-eslint/parser": "7.11.0",
     "autoprefixer": "10.4.19",
