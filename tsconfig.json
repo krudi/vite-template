@@ -1,39 +1,36 @@
 {
-  "include": [
-    "src"
-  ],
-  "compilerOptions": {
-    "target": "ES2020",
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable",
-      "WebWorker"
+    "include": [
+        "src"
     ],
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "paths": {
-      "@/src/*": [
-        "./src/*"
-      ],
-      "~/src/*": [
-        "./src/*"
-      ]
+    "compilerOptions": {
+        "target": "ES2020",
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable",
+            "WebWorker"
+        ],
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "resolveJsonModule": true,
+        "paths": {
+            "~/*": [
+                "./src/*"
+            ]
+        },
+        "types": [
+            "vite/client",
+            "vite-plugin-pwa/vanillajs",
+            "vite-plugin-pwa/info"
+        ],
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "skipLibCheck": true
     },
-    "types": [
-      "vite/client",
-      "vite-plugin-pwa/vanillajs",
-      "vite-plugin-pwa/info"
-    ],
-    "allowImportingTsExtensions": true,
-    "strict": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noEmit": true,
-    "isolatedModules": true,
-    "skipLibCheck": true
-  },
 }
