@@ -11,7 +11,10 @@ export default {
         }
     ],
     'ignoreFiles': [
-        '**/*.js'
+        '**/*.js',
+        '**/*.ts',
+        'public/**/*.css',
+        'node_modules/**/*.css'
     ],
     'rules': {
         'no-duplicate-selectors': true,
