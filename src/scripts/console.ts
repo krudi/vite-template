@@ -1,1 +1,1 @@
-console.log('vite-template')
+console.log('vite-template');

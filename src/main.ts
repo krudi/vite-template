@@ -1,2 +1,2 @@
-import '~/styles/styles.css'
-import '~/scripts/console'
+import '~/styles/styles.css';
+import '~/scripts/console';
