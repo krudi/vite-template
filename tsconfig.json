@@ -10,11 +10,7 @@
         "paths": {
             "~/*": ["./src/*"]
         },
-        "types": [
-            "vite/client",
-            "vite-plugin-pwa/vanillajs",
-            "vite-plugin-pwa/info"
-        ],
+        "types": ["vite/client"],
         "allowImportingTsExtensions": true,
         "strict": true,
         "noFallthroughCasesInSwitch": true,
