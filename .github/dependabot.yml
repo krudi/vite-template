@@ -10,6 +10,7 @@ updates:
           - 'dependencies'
       commit-message:
           prefix: 'build(deps)'
+
     - package-ecosystem: 'npm'
       directory: '/'
       reviewers:
@@ -27,30 +28,42 @@ updates:
       groups:
           framework:
               patterns:
-                  - '^vite$'
+                  - 'vite'
               update-types:
                   - 'minor'
+
           linting-and-formatting:
               patterns:
-                  - 'eslint*'
-                  - 'stylelint*'
+                  - 'eslint'
+                  - 'eslint-config-prettier'
+                  - 'eslint-plugin-simple-import-sort'
+                  - '@eslint/js'
+                  - 'stylelint'
+                  - 'stylelint-config-standard'
                   - 'prettier'
               update-types:
                   - 'minor'
+
           typings:
               patterns:
-                  - '@types/*'
+                  - '@types/node'
               update-types:
                   - 'minor'
+
           build-tools:
               patterns:
-                  - 'typescript*'
-                  - 'ts-node*'
+                  - 'typescript'
+                  - 'ts-node'
+                  - 'typescript-eslint'
               update-types:
                   - 'minor'
+
           postcss:
               patterns:
-                  - 'postcss*'
+                  - 'postcss'
+                  - 'postcss-import'
+                  - 'postcss-load-config'
+                  - 'postcss-nested'
                   - 'autoprefixer'
               update-types:
                   - 'minor'
