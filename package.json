@@ -46,10 +46,10 @@
         "lint:full:fix": "npm run lint:js:fix && npm run lint:css:fix && npm run lint:files:fix"
     },
     "devDependencies": {
-        "@eslint/js": "^9.23.0",
+        "@eslint/js": "^9.24.0",
         "@types/node": "^22.14.0",
         "autoprefixer": "^10.4.21",
-        "eslint": "^9.23.0",
+        "eslint": "^9.24.0",
         "eslint-config-prettier": "^10.1.1",
         "eslint-plugin-simple-import-sort": "^12.1.1",
         "postcss": "^8.5.3",
@@ -57,7 +57,7 @@
         "postcss-load-config": "^6.0.1",
         "postcss-nested": "^7.0.2",
         "prettier": "^3.5.3",
-        "stylelint": "^16.17.0",
+        "stylelint": "^16.18.0",
         "stylelint-config-standard": "^37.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.8.2",
