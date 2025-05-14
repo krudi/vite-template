@@ -1,4 +1,4 @@
-name: Frontend linting and code quality checks
+name: Set up and build project
 
 on:
     push:
@@ -15,17 +15,13 @@ on:
 
 jobs:
     build:
-        name: Install dependencies and build projectapplication
+        name: Install dependencies and build project
         runs-on: ubuntu-latest
         strategy:
             fail-fast: false
             matrix:
                 node-version:
-                    - '22.14.0'
-                command:
-                    - 'lint:js'
-                    - 'lint:css'
-                    - 'lint:files'
+                    - '23.11.0'
 
         steps:
             - name: Checkout repository
@@ -40,5 +36,5 @@ jobs:
             - name: Install Node.js dependencies
               run: npm install
 
-            - name: Run linting command(s)
-              run: 'npm run ${{ matrix.command }}'
+            - name: Compile and build project
+              run: npm run build
