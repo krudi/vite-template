@@ -1,5 +1,5 @@
-import { resolve } from 'path'
-import type { UserConfig } from 'vite'
+import { resolve } from 'path';
+import type { UserConfig } from 'vite';
 
 export default {
     resolve: {
@@ -7,12 +7,12 @@ export default {
             {
                 find: '~',
                 replacement: resolve(__dirname, './src')
-            },
+            }
         ]
     },
     build: {
         manifest: true,
         minify: true,
-        reportCompressedSize: true,
-    },
-} satisfies UserConfig
+        reportCompressedSize: true
+    }
+} satisfies UserConfig;

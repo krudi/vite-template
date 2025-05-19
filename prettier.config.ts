@@ -13,5 +13,5 @@ export default {
     bracketSameLine: false,
     singleAttributePerLine: true,
     insertPragma: false,
-    proseWrap: 'always',
+    proseWrap: 'always'
 };
