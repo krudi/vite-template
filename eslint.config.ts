@@ -9,22 +9,17 @@ const typeScriptConfig = [
     {
         languageOptions: {
             parser: tseslint.parser
-        },
+        }
     },
     {
         files: ['**/*.{js,cjs,mjs}'],
-        ...tseslint.configs.disableTypeChecked,
-    },
+        ...tseslint.configs.disableTypeChecked
+    }
 ];
 
 export default tseslint.config(
     {
-        ignores: [
-            'dist',
-            'dev-dist',
-            'public',
-            'node_modules'
-        ],
+        ignores: ['dist', 'dev-dist', 'public', 'node_modules']
     },
     {
         languageOptions: {
@@ -36,19 +31,13 @@ export default tseslint.config(
     {
         files: ['**/*.{js,jsx,cjs,mjs,ts,tsx,mts}'],
         plugins: {
-            'simple-import-sort': importSortPlugin,
+            'simple-import-sort': importSortPlugin
         },
         rules: {
             'simple-import-sort/imports': 'error',
             'simple-import-sort/exports': 'error',
-            'quotes': [
-                'error',
-                'single'
-            ],
-            'quote-props': [
-                'error',
-                'consistent'
-            ],
+            quotes: ['error', 'single'],
+            'quote-props': ['error', 'consistent'],
             'import/prefer-default-export': 'off',
             'import/no-anonymous-default-export': 'off'
         }
