@@ -15,6 +15,7 @@ node_modules
 # ESLint files
 
 .eslintcache
+.eslint-config-inspector
 
 # TypeScript files
 
