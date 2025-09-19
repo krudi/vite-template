@@ -1,71 +1,23 @@
 version: 2
 updates:
-    - package-ecosystem: 'github-actions'
-      directory: '/'
-      schedule:
-          interval: 'daily'
-      labels:
-          - 'dependencies'
-      commit-message:
-          prefix: 'build(deps)'
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "build(deps)"
 
-    - package-ecosystem: 'npm'
-      directory: '/'
-      schedule:
-          interval: 'daily'
-      labels:
-          - 'dependencies'
-      commit-message:
-          prefix: 'build(deps)'
-      ignore:
-          - dependency-name: '*'
-            update-types:
-                - 'version-update:semver-major'
-
-      groups:
-          framework:
-              patterns:
-                  - 'vite'
-              update-types:
-                  - 'minor'
-                  - 'patch'
-
-          linting-and-formatting:
-              patterns:
-                  - 'eslint'
-                  - 'eslint-config-prettier'
-                  - 'eslint-plugin-simple-import-sort'
-                  - '@eslint/js'
-                  - 'stylelint'
-                  - 'stylelint-config-standard'
-                  - 'prettier'
-              update-types:
-                  - 'minor'
-                  - 'patch'
-
-          typings:
-              patterns:
-                  - '@types/node'
-              update-types:
-                  - 'minor'
-                  - 'patch'
-
-          build-tools:
-              patterns:
-                  - 'typescript'
-                  - 'ts-node'
-                  - 'typescript-eslint'
-              update-types:
-                  - 'minor'
-                  - 'patch'
-
-          postcss:
-              patterns:
-                  - 'postcss'
-                  - 'postcss-import'
-                  - 'postcss-load-config'
-                  - 'postcss-nested'
-                  - 'autoprefixer'
-              update-types:
-                  - 'minor'
-                  - 'patch'
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "build(deps)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
