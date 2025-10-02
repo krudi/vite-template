@@ -39,7 +39,7 @@
         "@krudi/eslint-config": "^0.1.4",
         "@krudi/prettier-config": "^0.1.4",
         "@krudi/typescript-config": "^0.1.4",
-        "@types/node": "^24.6.0",
+        "@types/node": "^24.6.2",
         "autoprefixer": "^10.4.21",
         "postcss": "^8.5.6",
         "postcss-import": "^16.1.1",
