@@ -50,6 +50,6 @@
         "stylelint-config-standard": "^39.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.9.2",
-        "vite": "^7.1.7"
+        "vite": "^7.1.10"
     }
 }
