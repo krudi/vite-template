@@ -3,6 +3,8 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "stylelint.vscode-stylelint",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
     ]
 }
