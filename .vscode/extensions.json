@@ -5,6 +5,6 @@
         "stylelint.vscode-stylelint",
         "editorconfig.editorconfig",
         "redhat.vscode-xml",
-        "redhat.vscode-yaml",
+        "redhat.vscode-yaml"
     ]
 }
