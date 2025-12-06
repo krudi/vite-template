@@ -37,7 +37,7 @@
     },
     "devDependencies": {
         "@krudi/eslint-config": "^0.1.7",
-        "@krudi/prettier-config": "^0.1.6",
+        "@krudi/prettier-config": "^0.1.8",
         "@krudi/stylelint-config": "^0.1.1",
         "@krudi/typescript-config": "^0.1.9",
         "@types/node": "^24.10.1",
@@ -50,9 +50,9 @@
         "typescript": "^5.9.3",
         "vite": "^7.2.6"
     },
-    "packageManager": "npm@11.6.2",
+    "packageManager": "npm@11.6.4",
     "engines": {
         "node": ">= 22.18.0",
-        "npm": ">= 11.6.2"
+        "npm": ">= 11.6.4"
     }
 }
