@@ -6,7 +6,7 @@ A frontend build to optimize CSS3 and JavaScript files.
 
 > **Note** You need to have [Node.js](https://github.com/nodejs) installed on your computer before running this project.
 
-1. First clone this repository and navigate into your project directory
+1. First clone this repository and navigate into your pwdwroject directory
 2. Install the dependencies: `npm run install`
 3. Run the development server: `npm run dev`
 
