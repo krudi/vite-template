@@ -4,7 +4,9 @@ A frontend build to optimize CSS3 and JavaScript files.
 
 ## Quick start
 
-> **Note** You need to have [Node.js](https://github.com/nodejs) installed on your computer before running this project.
+> [!NOTE]
+>
+> You need to have [Node.js](https://github.com/nodejs) installed on your computer before running this project.
 
 1. First clone this repository and navigate into your project directory
 2. Install the dependencies: `npm run install`
