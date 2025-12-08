@@ -1,25 +1,25 @@
 name: Build
 
 on:
-    pull_request:
-        types:
-            - opened
-            - synchronize
-            - reopened
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
 
 concurrency:
-    group: build-${{ github.workflow }}-${{ github.ref }}
-    cancel-in-progress: true
+  group: build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
-    contents: read
+  contents: read
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - uses: krudi/reusable-actions/.github/actions/node-build@main
-              with:
-                  node_version: '22.18.0'
-                  nextjs: false
+    steps:
+      - uses: krudi/reusable-actions/.github/actions/github-checkout@main
+      - uses: krudi/reusable-actions/.github/actions/node-setup@main
+      - uses: krudi/reusable-actions/.github/actions/node-install-run@main
+      - uses: krudi/reusable-actions/.github/actions/node-build-run@main
